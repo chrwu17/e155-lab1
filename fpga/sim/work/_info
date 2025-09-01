@@ -1,0 +1,99 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/chris/my_designs/lab1_cw
+T_opt
+!s110 1756708648
+VI25RB]DA91dSEA4AMKIN?1
+04 17 4 work lab1_cw_testbench fast 0
+=7-3c22fbe5a2ff-68b53f28-2b8-40cc
+R1
+!s12f OEM25U2 
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work -L iCE40UP +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2024.2;79
+vlab1_cw
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1756708637
+!i10b 1
+!s100 [=Z:`[NYXC4g]BKGjDE>e3
+IPg_L7lCDiZE5W7FKljDzo2
+S1
+Z5 dC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim
+w1756688050
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw.sv
+!i122 34
+L0 9 53
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z8 !s108 1756708637.000000
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw.sv|
+!i113 0
+Z9 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vlab1_cw_testbench
+2C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw_testbench.sv
+R3
+R4
+!i10b 1
+!s100 4>n3deE`1HATmXV8M1]m13
+I4<X:>2I=b1YmF:Y2<zDEP1
+S1
+R5
+w1756708619
+8C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw_testbench.sv
+FC:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw_testbench.sv
+!i122 35
+L0 13 54
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw_testbench.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw_testbench.sv|
+!i113 0
+R9
+R2

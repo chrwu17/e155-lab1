@@ -1,0 +1,28 @@
+// lab1_sevenSegmentDisplay_testvectors.tv
+// Christian Wu
+// chrwu@g.hmc.edu
+// 08/31/25
+
+// Test vectors to test the seven segment display in my testbench file,
+// lab1_sevenSegmentDisplay_testbench.sv, to simulate the 7 segment display
+
+// Test vector format:
+// s[3:0]_seg[6:0]
+// led[2] is excluded because it blinks at 2.4 Hz, so it will be tested on an oscilloscope
+
+0000_1000000
+0001_1111001
+0010_0100100
+0011_0110000
+0100_0011001
+0101_0010010
+0110_0000010
+0111_1111000
+1000_0000000
+1001_0010000
+1010_0001000
+1011_0000011
+1100_1000110
+1101_0100001
+1110_0000110
+1111_0001110

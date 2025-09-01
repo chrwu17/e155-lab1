@@ -1,0 +1,28 @@
+// lab1_ledController_testvectors.tv
+// Christian Wu
+// chrwu@g.hmc.edu
+// 08/31/25
+
+// Test vectors to test the ledController module in my testbench file, 
+// lab1_ledController_testbench.sv, to simulate LED.
+
+// Test vector format:
+// s[3:0]_LED[1:0]
+// led[2] is excluded because it blinks at 2.4 Hz, so it will be tested on an oscilloscope
+
+0000_00
+0001_01
+0010_01
+0011_00
+0100_00
+0101_01
+0110_01
+0111_00
+1000_00
+1001_01
+1010_01
+1011_00
+1100_10
+1101_11
+1110_11
+1111_10
