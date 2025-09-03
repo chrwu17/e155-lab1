@@ -1,8 +1,43 @@
-C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw_testbench.sv
+C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_ledController_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_ledController_testbench.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module lab1_ledController_testbench
+
+Top level modules:
+	lab1_ledController_testbench
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_sevenSegmentDisplay_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_sevenSegmentDisplay_testbench.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module lab1_sevenSegmentDisplay_testbench
+
+Top level modules:
+	lab1_sevenSegmentDisplay_testbench
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_ledController.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_ledController.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module lab1_ledController
+
+Top level modules:
+	lab1_ledController
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw_testbench.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw_testbench.sv
 Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
 -- Compiling module lab1_cw_testbench
 
 Top level modules:
 	lab1_cw_testbench
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_sevenSegmentDisplay.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_sevenSegmentDisplay.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module lab1_sevenSegmentDisplay
+
+Top level modules:
+	lab1_sevenSegmentDisplay
+
+} {} {}} C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim/lab1_cw.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module lab1_cw
+
+Top level modules:
+	lab1_cw
 
 } {} {}}

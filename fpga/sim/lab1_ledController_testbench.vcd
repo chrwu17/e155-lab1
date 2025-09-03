@@ -1,0 +1,288 @@
+$date
+	Wed Sep  3 00:21:43 2025
+$end
+$version
+	Questa Lattice OEM Edition 2024.2
+$end
+$timescale
+	1ns
+$end
+
+$scope module lab1_ledController_testbench $end
+$var reg 1 ! clk $end
+$var reg 1 " reset $end
+$var reg 4 # s [3:0] $end
+$var reg 3 $ led [2:0] $end
+$var reg 2 % led_expected [1:0] $end
+$var reg 32 & vectornum [31:0] $end
+$var reg 32 ' errors [31:0] $end
+
+$scope module dut $end
+$var wire 1 ( s [3] $end
+$var wire 1 ) s [2] $end
+$var wire 1 * s [1] $end
+$var wire 1 + s [0] $end
+$var reg 3 , led [2:0] $end
+$var reg 1 - int_osc $end
+$var reg 1 . led_state $end
+$var reg 25 / counter [24:0] $end
+
+$scope module hf_osc $end
+$var wire 1 0 CLKHFPU $end
+$var wire 1 1 CLKHFEN $end
+$var wire 1 2 CLKHF $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+bx #
+b0xx $
+bx %
+b0 &
+b0 '
+b0xx ,
+0-
+0.
+b0 /
+x+
+x*
+x)
+x(
+11
+10
+02
+$end
+#1
+b0 %
+b0 #
+0+
+0*
+0)
+0(
+b0x0 ,
+b0 ,
+b0 $
+#5
+0!
+#10
+1!
+12
+1-
+b1 /
+#15
+0!
+#20
+1!
+02
+0-
+#25
+0!
+#27
+0"
+#30
+1!
+12
+1-
+b10 /
+#35
+0!
+b1 &
+#40
+1!
+02
+0-
+#41
+b1 %
+b1 #
+1+
+b1 ,
+b1 $
+#45
+0!
+b10 &
+#50
+1!
+12
+1-
+b11 /
+#51
+b10 #
+0+
+1*
+#55
+0!
+b11 &
+#60
+1!
+02
+0-
+#61
+b0 %
+b11 #
+1+
+b0 ,
+b0 $
+#65
+0!
+b100 &
+#70
+1!
+12
+1-
+b100 /
+#71
+b100 #
+0+
+0*
+1)
+#75
+0!
+b101 &
+#80
+1!
+02
+0-
+#81
+b1 %
+b101 #
+1+
+b1 ,
+b1 $
+#85
+0!
+b110 &
+#90
+1!
+12
+1-
+b101 /
+#91
+b110 #
+0+
+1*
+#95
+0!
+b111 &
+#100
+1!
+02
+0-
+#101
+b0 %
+b111 #
+1+
+b0 ,
+b0 $
+#105
+0!
+b1000 &
+#110
+1!
+12
+1-
+b110 /
+#111
+b1000 #
+0+
+0*
+0)
+1(
+#115
+0!
+b1001 &
+#120
+1!
+02
+0-
+#121
+b1 %
+b1001 #
+1+
+b1 ,
+b1 $
+#125
+0!
+b1010 &
+#130
+1!
+12
+1-
+b111 /
+#131
+b1010 #
+0+
+1*
+#135
+0!
+b1011 &
+#140
+1!
+02
+0-
+#141
+b0 %
+b1011 #
+1+
+b0 ,
+b0 $
+#145
+0!
+b1100 &
+#150
+1!
+12
+1-
+b1000 /
+#151
+b10 %
+b1100 #
+0+
+0*
+1)
+b10 ,
+b10 $
+#155
+0!
+b1101 &
+#160
+1!
+02
+0-
+#161
+b11 %
+b1101 #
+1+
+b11 ,
+b11 $
+#165
+0!
+b1110 &
+#170
+1!
+12
+1-
+b1001 /
+#171
+b1110 #
+0+
+1*
+#175
+0!
+b1111 &
+#180
+1!
+02
+0-
+#181
+b10 %
+b1111 #
+1+
+b10 ,
+b10 $
+#185
+0!
+b10000 &

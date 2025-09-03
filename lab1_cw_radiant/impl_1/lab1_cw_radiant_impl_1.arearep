@@ -1,0 +1,33 @@
+----------------------------------------------------------------------
+Report for cell lab1_cw.TECH
+Register bits:  26 of 5280 (0.492%)
+I/O cells:      14
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               CCU2        13          100.0
+                            FD1P3XZ        26          100.0
+                         HSOSC_CORE         1          100.0
+                                 IB         4          100.0
+                               LUT4        19          100.0
+                                 OB        10          100.0
+SUB MODULES
+                 lab1_ledController         1
+           lab1_sevenSegmentDisplay         1
+                              TOTAL        75
+----------------------------------------------------------------------
+Report for cell lab1_ledController.v1
+Instance Path : led_ctrl
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                                FA2        13          100.0
+                            FD1P3XZ        26          100.0
+                         HSOSC_CORE         1          100.0
+                               LUT4        12           63.2
+                              TOTAL        52
+----------------------------------------------------------------------
+Report for cell lab1_sevenSegmentDisplay.v1
+Instance Path : seg_ctrl
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                               LUT4         7           36.8
+                              TOTAL         7

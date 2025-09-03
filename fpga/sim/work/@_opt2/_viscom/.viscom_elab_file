@@ -1,0 +1,1 @@
+C:/lscc/radiant/2025.1/questasim/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 393216 work.lab1_sevenSegmentDisplay_testbench -quiet -auto_acc_if_foreign -work work -L iCE40UP +acc -allow_unnamed -o _opt2 -id 1-3c22fbe5a2ff-68b7edbb-3a7-4764 +__design_bin_path+C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/sim +__betafsm

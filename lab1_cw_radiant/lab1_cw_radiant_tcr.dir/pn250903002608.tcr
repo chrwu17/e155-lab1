@@ -1,0 +1,13 @@
+#Start recording tcl command: 9/2/2025 22:56:33
+#Project Location: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/lab1_cw_radiant; Project name: lab1_cw_radiant
+prj_create -name "lab1_cw_radiant" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+file copy -force -- "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/src/lab1_cw.sv" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/src/lab1_ledController.sv" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/fpga/src/lab1_sevenSegmentDisplay.sv" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/lab1_cw_radiant/source/impl_1"
+prj_add_source "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/lab1_cw_radiant/source/impl_1/lab1_cw.sv" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/lab1_cw_radiant/source/impl_1/lab1_ledController.sv" "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/lab1_cw_radiant/source/impl_1/lab1_sevenSegmentDisplay.sv"
+prj_save 
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/lab1_cw_radiant/lab1_cw_pinAssignments.pdc"
+prj_enable_source "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/lab1_cw_radiant/lab1_cw_pinAssignments.pdc"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 9/3/2025 00:26:08
