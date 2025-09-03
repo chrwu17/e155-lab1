@@ -1,0 +1,5 @@
+#Start recording tcl command: 9/3/2025 00:46:20
+#Project Location: C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/lab1_cw_radiant; Project name: lab1_cw_radiant
+prj_open "C:/Users/chris/OneDrive/Desktop/Wu-E155-Lab1/lab1_cw_radiant/lab1_cw_radiant.rdf"
+prj_close
+#Stop recording: 9/3/2025 01:12:58
